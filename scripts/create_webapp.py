@@ -17,7 +17,7 @@ TotalBsmtSF = st.number_input("Basement Square Feet")
 BedroomAbvGr = st.number_input("Number of Bedrooms")
 GarageCars = st.number_input("Car spaces in Garage")
 
-model = pickle.load(open('./models/trained_pipe_knn.sav', 'rb'))
+model = pickle.load(open('../models/trained_pipe_knn.sav', 'rb'))
 
 
 new_house = pd.DataFrame({
