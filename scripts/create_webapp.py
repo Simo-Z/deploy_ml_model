@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
+
+st.image("https://www.ihre-vorsorge.de/fileadmin/_processed_/8/a/csm_adobestock-186462448-hausmodell-muenzstapel-stift-taschenrechner-kaufvertrag-bauplan_89685b45ea.jpg")
  
 st.title("Housing Prices Prediction")
  
